@@ -3,6 +3,14 @@
 > A modular console-based system to manage book borrowing and returns, built using Abstract Data Types (ADTs) in C.
 
 ---
+## Modules Overview
+
+- **Book ADT**: Handles book creation, storage, and basic book information.
+- **Library ADT**: Manages the collection of books using a linked list.
+- **BorrowManager ADT**: Handles borrowing and returning operations using a queue.
+- **Main Module**: Integrates all modules into a working console application.
+
+---
 
 ## 👥 Team Members
 
