@@ -3,14 +3,8 @@
 
 #include <stdbool.h>
 
-// Define the struct
-typedef struct {
-    char* title;
-    char* author;
-    char* ISBN;
-    int year;
-    bool available;
-} Book;
+// Opaque struct (hidden implementation)
+typedef struct Book Book;
 
 // Lifecycle
 Book* createBook(const char* title, const char* author,
